@@ -1,0 +1,141 @@
+@import url(games.css);
+@import url(button.css);
+
+
+body{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerDiv{
+    background-color: rgb(50, 211, 230);
+    color: azure;
+    height: 50px;
+    box-shadow: 5px 7px lightgray;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+h1{
+    padding-left: 10px;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.headerTextSpan{
+    width: 600px;
+}
+
+.headerImg{
+    height: 300px;
+    width: 100%;
+    box-shadow: 5px 7px lightgray;
+}
+
+.dropdown-menu > li > a {
+    color: white;
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    background-color: rgb(50, 211, 230);
+    left: 750px;
+}
+
+h2{
+    color: rgb(50, 211, 230);
+    margin-top: 8px;
+    margin-left: 8px;
+		margin-right: 8px;
+    border-bottom: 2px solid rgb(50, 211, 230);
+}
+
+h3 {
+  margin-left: 8px;
+}
+
+p, ol li, ul li {
+    font-size: 1.25em;
+}
+
+p {
+    margin: 15px 10px;
+}
+
+table{
+    margin-top: 8px;
+    margin-left: 8px;
+		margin-right: 8px;
+		font-weight: normal;
+}
+
+.headerMenuButton{
+	padding-right: 8px;
+	padding-left: 8px;
+	background-color:  rgb(50, 211, 230);
+	color: white;
+	font-size: 20px;
+	border: none;
+	height: 43px;
+}
+
+.headerMenuButton:hover{
+	background-color: white;
+	color:  rgb(50, 211, 230);
+}
+
+.normalParagraph{
+	font-size: 15px;
+}
+
+.contentDivs{
+  margin-top: 350px;
+}
+
+.contentDiv{
+    float: left;
+    background-color: white;
+    box-shadow: 5px 7px lightgray;
+    width: 45%;
+    min-height: 350px;
+    margin: 25px 12px 25px 12px;
+    padding-bottom: 8px;
+}
+
+.contentDiv:nth-of-type(2n) {
+  float: right;
+}
+
+.contentDiv img {
+  max-width: 600px;
+  margin: 10px;
+}
+
+iframe {
+  max-height: 300px;
+  text-align: center;
+}
+
+.entry {
+  margin: 1em;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.entry:hover {
+  cursor: pointer;
+}
+
+.adultgames {
+  list-style-type: none;
+}
+
+.adultgames li {
+  font-weight: bolder;
+  color: #fff;
+ }
